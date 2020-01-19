@@ -1,0 +1,37 @@
+.u-container {
+  max-width: 1170px;
+  display: block;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.u-flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.u-flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.u-top20 {
+  margin-top: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  padding: 30px 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchContainer {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,27 @@
+.nav {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 15px 15px 20px;
+  background-color: #5790e0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  align-items: center;
+}
+
+.nav div {
+  cursor: pointer;
+}
+
+.navLogin {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+  border: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0 5px;
+}

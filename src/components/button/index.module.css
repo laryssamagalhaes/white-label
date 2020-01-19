@@ -1,0 +1,15 @@
+.button {
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  background: #5790e0;
+  border: 0;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
